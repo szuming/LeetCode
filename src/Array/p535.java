@@ -3,6 +3,9 @@ package Array;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 长url转为短url
+ */
 public class p535 {
     Map<Integer,String> map=new HashMap<>();
     private int count=0;
