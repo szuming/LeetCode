@@ -18,6 +18,10 @@
 |p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
 
 
+## sort
+|  #  |      Title     |   Solutions   |  笔记                 
+|-----|----------------|---------------|-------------
+|p349|求交集|[Solution](https://github.com/szuming/leetCode/blob/master/src/sort/p349.java)|使用hashset保存不可重复值，遍历求得交集
 
 ## Backtracking
 |  #  |      Title     |   Solutions   |  笔记                 
