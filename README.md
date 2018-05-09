@@ -12,6 +12,10 @@
 |p807|城市天际线|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p807.java)|Array
 
 
+## String
+|  #  |      Title     |   Solutions   |  笔记                 
+|-----|----------------|---------------|-------------
+|p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
 
 
 
