@@ -43,8 +43,8 @@
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p106|从中序与后序遍历序列构造二叉树|[Solution](https://github.com/szuming/leetCode/blob/master/src/tree/p106.java)|后序遍历的倒序是每棵子树的根节点,不断递归构造左子树与右子树
+|p145|二叉树递归与非递归遍历|[Solution](https://github.com/szuming/leetCode/blob/master/src/tree/p145.java)|非递归时使用stack来储存遍历次序，使用HashMap来储存是否已经遍历
 |p654|最大二叉树|[Solution](https://github.com/szuming/leetCode/blob/master/src/tree/p654.java)|不断递归构造左子树与右子树
-
 
 
 
