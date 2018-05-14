@@ -13,7 +13,9 @@
 ## String
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
+|p344|字符串反转|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p344.java)|使用StringBuilder的reverse方法或是将String转为char[]操作
 |p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
+
 
 
 ## sort
