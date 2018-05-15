@@ -54,3 +54,8 @@
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p811|域名访问次数|[Solution](https://github.com/szuming/leetCode/blob/master/src/HashTable/p811.java)|使用keyset遍历HashMap，spilt,charAt,subString
+
+## HashTable
+|  #  |      Title     |   Solutions   |  笔记                 
+|-----|----------------|---------------|-------------
+|p595|大国家|[Solution](https://github.com/szuming/leetCode/blob/master/src/SQL/p595.sql)|使用||或者or或者union来实现或操作
