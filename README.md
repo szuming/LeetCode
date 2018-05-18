@@ -4,6 +4,7 @@
 ## Array
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
+|p1|两数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/怕.java)|使用HashMap来寻找目标值
 |p35|搜索插入位置|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p35.java)|只要"target<=nums[result]",返回result
 |p535|长url转短url|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p535.java)|使用HashMap储存长url，当数据量大时使用Mysql自增字段储存
 |p561|数组拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p561.java)|Array
@@ -20,6 +21,11 @@
 |p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
 
 
+
+## LinkedList
+|  #  |      Title     |   Solutions   |  笔记                 
+|-----|----------------|---------------|-------------
+|p2|两数相加|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p2.java)|同时遍历两个链表直到一条链表结束，然后再把长的那条链表剩余的位加入，最后遍历结果链表处理进位
 
 ## sort
 |  #  |      Title     |   Solutions   |  笔记                 
