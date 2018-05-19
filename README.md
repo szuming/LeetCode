@@ -16,6 +16,7 @@
 ## String
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
+|p3|无重复字符的最长字串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p3.java)|两个循环，第二个循环应判断长度是否已经不可能超过result来优化
 |p125|判断回文串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p125.java)|用两个index分别从字符串首尾出发判断，每一次要找到英文或数字
 |p344|字符串反转|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p344.java)|使用StringBuilder的reverse方法或是将String转为char[]操作
 |p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
