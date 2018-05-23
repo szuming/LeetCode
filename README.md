@@ -34,6 +34,7 @@
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p2|两数相加|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p2.java)|同时遍历两个链表直到一条链表结束，然后再把长的那条链表剩余的位加入，最后遍历结果链表处理进位
+|p83|删除链表重复元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p83.java)|两个节点分别代表前后节点，判断前后节点值然后决定是否转移
 
 ## sort
 |  #  |      Title     |   Solutions   |  笔记                 
