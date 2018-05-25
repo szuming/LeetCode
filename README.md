@@ -8,6 +8,7 @@
 |p4|两数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p4.java)|同时遍历两个数组，直到到了一个数组的末尾再把第二个数组剩余数加进去，最后求新生成的数组的中位数
 |p7|反转整数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p7.java)|将result设为long型，当res>Integer.MAX_VALUE时溢出
 |p9|检查是否是回文数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p9.java)|反转整数后再比较是否相等即可
+|p13|罗马数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p13.java)|与前一个数相比，大于前一个数则减去，少于则加上
 |p35|搜索插入位置|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p35.java)|只要"target<=nums[result]",返回result
 |p535|长url转短url|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p535.java)|使用HashMap储存长url，当数据量大时使用Mysql自增字段储存
 |p561|数组拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p561.java)|Array
@@ -54,6 +55,7 @@
 ## DynamicProgramming
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
+|p62|路径数|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p62.java)|到当前点的路径数+往右到达终点的路径数+往下到达终点的路径数
 |p64|最小路径和|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p64.java)|使用二维数组记录相同的遍历结果
 
 
