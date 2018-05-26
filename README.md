@@ -14,6 +14,7 @@
 |p561|数组拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p561.java)|Array
 |p771|找宝石|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p771.java)|Array
 |p807|城市天际线|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p807.java)|Array
+|p832|翻转图像|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p832.java)|反转与遍历矩阵
 
 
 

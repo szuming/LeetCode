@@ -28,7 +28,7 @@ package DynamicProgramming;
  */
 public class p63 {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
-
+        if(obstacleGrid[0][0]==1)return 0;
         int record[][]=new int[obstacleGrid.length+1][obstacleGrid[0].length+1];
         return getPaths(0,0,obstacleGrid,record);
     }
@@ -36,10 +36,9 @@ public class p63 {
     public int getPaths(int i,int j,int[][] obstacleGrid,int record[][]){
         if(i>=obstacleGrid.length)return 0;
         if(j>=obstacleGrid[0].length)return 0;
-        if(obstacleGrid[i][j]==1)return 0;
+        if(obstacleGrid[i][j]==1)return 0;                                                           //障碍点返回0
         if(i==obstacleGrid.length-1&&j==obstacleGrid[0].length-1){
-            if (obstacleGrid[obstacleGrid.length-1][obstacleGrid[0].length-1]==0) return 1;
-            else return 0;
+            return 1;                                                                                //到达终点返回1
         }
         int rPaths;                                         //向右路径数
         if(record[i][j+1]!=0){
@@ -55,12 +54,11 @@ public class p63 {
             dPaths=getPaths(i+1,j,obstacleGrid,record);
             record[i+1][j]=dPaths;
         }
-
-        return rPaths+dPaths+record[i][j];                  //到当前点的路径数加上往左与往右的路径数
+        return rPaths+dPaths;                  //到当前点的路径数加上往左与往右的路径数
     }
 
     public static void main(String[] argv){
-        int[][] obstacleGrid={{0}};
+        int[][] obstacleGrid={{0,0},{0,0}};
         p63 temp=new p63();
         System.out.println(temp.uniquePathsWithObstacles(obstacleGrid));
     }
