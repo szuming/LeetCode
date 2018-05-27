@@ -47,7 +47,7 @@ public class p62 {
             record[i+1][j]=dPaths;
         }
 
-        return rPaths+dPaths+record[i][j];                  //到当前点的路径数加上往左与往右的路径数
+        return rPaths+dPaths;                  //到当前点的路径数加上往左与往右的路径数
     }
 
     public static void main(String[] argv){

@@ -20,7 +20,7 @@ package DynamicProgramming;
  */
 public class p64 {
     //要找到当前点到终点的最短距离，只需找到右边一点到终点的距离min1，与下边一点到终点的距离min2，取两者较小值并+自身值
-    public int minPathSum(int[][] grid) {
+     public int minPathSum(int[][] grid) {
         int MinSumSave[][]=new int[grid.length+1][grid[0].length+1];            //用于储存之前遍历的结果，比grid长宽大1是因为临界问题
         return MinSum(grid,0,0,MinSumSave);
     }
