@@ -27,13 +27,15 @@ package DynamicProgramming;
  * 2. 向下 -> 向下 -> 向右 -> 向右
  */
 public class p63 {
+    int[][] record=new int[1000][1000];
+    int[][] obstacleGrid;
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if(obstacleGrid[0][0]==1)return 0;
-        int record[][]=new int[obstacleGrid.length+1][obstacleGrid[0].length+1];
-        return getPaths(0,0,obstacleGrid,record);
+        this.obstacleGrid=obstacleGrid;
+        return getPaths(0,0);
     }
 
-    public int getPaths(int i,int j,int[][] obstacleGrid,int record[][]){
+    public int getPaths(int i,int j){
         if(i>=obstacleGrid.length)return 0;
         if(j>=obstacleGrid[0].length)return 0;
         if(obstacleGrid[i][j]==1)return 0;                                                           //障碍点返回0
@@ -44,22 +46,23 @@ public class p63 {
         if(record[i][j+1]!=0){
             rPaths=record[i][j+1];
         }else {
-            rPaths=getPaths(i,j+1,obstacleGrid,record);
+            rPaths=getPaths(i,j+1);
             record[i][j+1]=rPaths;
         }
         int dPaths;                                         //向下路径数
         if(record[i+1][j]!=0){
             dPaths=record[i+1][j];
         }else {
-            dPaths=getPaths(i+1,j,obstacleGrid,record);
+            dPaths=getPaths(i+1,j);
             record[i+1][j]=dPaths;
         }
         return rPaths+dPaths;                  //到当前点的路径数加上往左与往右的路径数
     }
 
     public static void main(String[] argv){
-        int[][] obstacleGrid={{0,0},{0,0}};
+        int[][] obstacleGrid={{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}};
         p63 temp=new p63();
         System.out.println(temp.uniquePathsWithObstacles(obstacleGrid));
+
     }
 }

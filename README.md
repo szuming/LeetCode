@@ -28,6 +28,7 @@
 |p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
 |p125|判断回文串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p125.java)|用两个index分别从字符串首尾出发判断，每一次要找到英文或数字
 |p344|字符串反转|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p344.java)|使用StringBuilder的reverse方法或是将String转为char[]操作
+|p345|反转元音字母|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p345.java)|使用一个数组来储存元音字母，设其值为1；然后分别从头与从尾开始遍历交换元音字母
 |p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
 
 
@@ -59,6 +60,7 @@
 |p62|路径数|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p62.java)|到当前点的路径数+往右到达终点的路径数+往下到达终点的路径数
 |p64|最小路径和|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p64.java)|使用二维数组记录相同的遍历结果
 |p70|上楼梯|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p70.java)|使用ways[]来记录每一个楼梯到达楼顶的方法个数，ways[i]=ways[i+1]+ways[i+2]
+|p650|只有两个键的键盘|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p650.java)|每次递归需要判断是否可以执行复制，剩余长度%复制后的长度==0则可进行复制
 
 
 
