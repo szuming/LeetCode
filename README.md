@@ -17,7 +17,6 @@
 |p832|翻转图像|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p832.java)|反转与遍历矩阵
 
 
-
 ## String
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
@@ -32,17 +31,18 @@
 |p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
 
 
-
 ## LinkedList
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p2|两数相加|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p2.java)|同时遍历两个链表直到一条链表结束，然后再把长的那条链表剩余的位加入，最后遍历结果链表处理进位
 |p83|删除链表重复元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p83.java)|两个节点分别代表前后节点，判断前后节点值然后决定是否转移
 
+
 ## sort
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p349|求交集|[Solution](https://github.com/szuming/leetCode/blob/master/src/sort/p349.java)|使用hashset保存不可重复值，遍历求得交集
+
 
 ## Backtracking
 |  #  |      Title     |   Solutions   |  笔记                 
@@ -53,16 +53,14 @@
 |p413|求等差数列个数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p413.java)|与全部遍历不同，要求的是连续的序列是否组成等差数组，因此只要遇到错误解就要立刻返回
 
 
-
 ## DynamicProgramming
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p62|路径数|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p62.java)|到当前点的路径数+往右到达终点的路径数+往下到达终点的路径数
 |p64|最小路径和|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p64.java)|使用二维数组记录相同的遍历结果
 |p70|上楼梯|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p70.java)|使用ways[]来记录每一个楼梯到达楼顶的方法个数，ways[i]=ways[i+1]+ways[i+2]
+|p139|单词拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p139.java)|使用flag记录从第index位置开始是否能到达终点，不能设为1则下次遍历直接返回false
 |p650|只有两个键的键盘|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p650.java)|每次递归需要判断是否可以执行复制，剩余长度%复制后的长度==0则可进行复制
-
-
 
 
 ## tree
@@ -73,11 +71,11 @@
 |p654|最大二叉树|[Solution](https://github.com/szuming/leetCode/blob/master/src/tree/p654.java)|不断递归构造左子树与右子树
 
 
-
 ## HashTable
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p811|域名访问次数|[Solution](https://github.com/szuming/leetCode/blob/master/src/HashTable/p811.java)|使用keyset遍历HashMap，spilt,charAt,subString
+
 
 ## HashTable
 |  #  |      Title     |   Solutions   |  笔记                 

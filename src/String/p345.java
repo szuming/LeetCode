@@ -1,12 +1,17 @@
 package String;
 
 /**
- * @ClassName p345
- * @Description TODO
- * @Author MING
- * @Date 2018/6/8 20:01
- * @Update 2018/6/8 20:01
- **/
+ * 编写一个函数，以字符串作为输入，反转该字符串中的元音字母。
+ *
+ * 示例 1：
+ * 给定 s = "hello", 返回 "holle".
+ *
+ * 示例 2：
+ * 给定 s = "leetcode", 返回 "leotcede".
+ *
+ * 注意:
+ * 元音字母不包括 "y".
+ */
 public class p345 {
     public String reverseVowels(String s) {
         int[] map=new int[1000];
