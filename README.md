@@ -59,6 +59,9 @@
 |p62|路径数|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p62.java)|到当前点的路径数+往右到达终点的路径数+往下到达终点的路径数
 |p64|最小路径和|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p64.java)|使用二维数组记录相同的遍历结果
 |p70|上楼梯|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p70.java)|使用ways[]来记录每一个楼梯到达楼顶的方法个数，ways[i]=ways[i+1]+ways[i+2]
+|p121|买卖股票的最佳时机1|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p121.java)|每次读一个就更新最小价格，然后比较利润
+|p122|买卖股票的最佳时机2|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p122.java)每遍历一个就看能不卖出利润，并更新最低价格
+|p70|上楼梯|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p70.java)|使用ways[]来记录每一个楼梯到达楼顶的方法个数，ways[i]=ways[i+1]+ways[i+2]
 |p139|单词拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p139.java)|使用flag记录从第index位置开始是否能到达终点，不能设为1则下次遍历直接返回false
 |p650|只有两个键的键盘|[Solution](https://github.com/szuming/leetCode/blob/master/src/DynamicProgramming/p650.java)|每次递归需要判断是否可以执行复制，剩余长度%复制后的长度==0则可进行复制
 
