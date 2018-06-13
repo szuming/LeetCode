@@ -25,13 +25,30 @@ package DynamicProgramming;
  *     0 <= fee < 50000.
  */
 public class p714 {
-    int flag[]=new int[50000];
 
     public int maxProfit(int[] prices, int fee){
-        return db(prices,fee,0);
+        int len=prices.length;
+        if(len<=1)return 0;
+        int max=0;
+        int minPrice=prices[0];
+        int boughtPrice=prices[0];
+        for(int i=1;i<len;i++){
+            int rm=prices[i]-minPrice-fee;
+
+            int r=prices[i]-boughtPrice-fee;
+            if(r>0){
+                max+=r;
+                minPrice=prices[i];
+            }
+            if(minPrice>prices[i]){
+                minPrice=prices[i];
+            }
+        }
+        return max;
     }
 
-    public int db(int[] prices,int fee,int index){
+
+    /*public int db(int[] prices,int fee,int index){
         int max=0;
         for(int i=index;i<prices.length;i++){
             for(int j=i+1;j<prices.length;j++){
@@ -51,10 +68,10 @@ public class p714 {
             }
         }
         return max;
-    }
+    }*/
 
     public static void main(String[] argv){
         p714 temp=new p714();
-        System.out.println(temp.maxProfit(new int[]{1,3,2,8,4,9},2));
+        System.out.println(temp.maxProfit(new int[]{5,9,1,5,100,2,100},3));
     }
 }
