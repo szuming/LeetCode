@@ -16,6 +16,9 @@
 |p18|四数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p18.java)与三数之和相似，只是多了一层循环
 |p26|删除重复元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p26.java)快慢指针遍历，遇到不同时更新
 |p27|删除指定元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p27.java)快慢指针遍历，当快指针所指值不等于指定值时更新数组
+|p31|下一个排列|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p31.java)|从后往前遍历，将大的值往后移，只要不是移到最后的位置，那么就将在它之后比它大的那个数两两交换放到最前面,得到结果
+|p33|搜索旋转排序数组|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p33.java)|如果大于头元素则从头位置开始往后搜索，否则从尾元素开始往前搜索
+|p34|搜索范围|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p34.java)|头尾指针遍历，当结果数组的值都不为-1时得到结果
 |p35|搜索插入位置|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p35.java)|只要"target<=nums[result]",返回result
 |p535|长url转短url|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p535.java)|使用HashMap储存长url，当数据量大时使用Mysql自增字段储存
 |p561|数组拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p561.java)|Array

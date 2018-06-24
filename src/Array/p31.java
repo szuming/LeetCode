@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Arrays;
+
 /**
  * 31. 下一个排列
  * 题目描述提示帮助提交记录社区讨论阅读解答
@@ -17,24 +19,32 @@ package Array;
  */
 public class p31{
     public void nextPermutation(int[] nums) {
-        int i,j,len=nums.length;
-        boolean flag=true;
-        for(i=len-1;i>0&&flag;i--){
-            if(nums[i]>nums[i-1]){
-                int temp=nums[i];
-                nums[i]=nums[i-1];
-                nums[i-1]=temp;
-                flag=false;
+        int i,len=nums.length,temp;
+        if(len<=1)return;
+        for(i=len-2;i>=0;i--){
+            int j=i;
+            while(j<len-1&&nums[j]>=nums[j+1]){
+                int t=nums[j];
+                nums[j]=nums[j+1];
+                nums[j+1]=t;
+                j++;
+            }
+            if(j!=len-1){
+                while(j>=i){
+                    int t=nums[j+1];
+                    nums[j+1]=nums[j];
+                    nums[j]=t;
+                    j--;
+                }
+                break;
             }
         }
-        if(flag){
-            for(i=0,j=len-1;i<j;){
-                int temp=nums[i];
-                nums[i]=nums[j];
-                nums[j]=temp;
-                i++;
-                j--;
-            }
-        }
+    }
+
+    public static void main(String[] argv){
+        p31 temp=new p31();
+        int s[]={1,5,1};
+        temp.nextPermutation(s);
+        System.out.println(Arrays.toString(s));
     }
 }
