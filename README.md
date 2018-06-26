@@ -13,13 +13,15 @@
 |p14|最长公共前缀|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p14.java)|一个个字符比较即可
 |p15|三数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p15.java)|双指针，先快排形成有序，遍历一次选定第一个数，然后头尾指针遍历第一数右边的数，三数结果<0则头指针往右移，>0则往左移，避免重复需保证相邻的两个数不相等
 |p16|最接近的三数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p16.java)|双指针，先快排形成有序，遍历一次选定第一个数，然后头尾指针遍历第一数右边的数，三数结果<目标则头指针往右移，>目标则往左移
-|p18|四数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p18.java)与三数之和相似，只是多了一层循环
-|p26|删除重复元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p26.java)快慢指针遍历，遇到不同时更新
-|p27|删除指定元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p27.java)快慢指针遍历，当快指针所指值不等于指定值时更新数组
+|p18|四数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p18.java)|与三数之和相似，只是多了一层循环
+|p26|删除重复元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p26.java)|快慢指针遍历，遇到不同时更新
+|p27|删除指定元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p27.java)|快慢指针遍历，当快指针所指值不等于指定值时更新数组
 |p31|下一个排列|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p31.java)|从后往前遍历，将大的值往后移，只要不是移到最后的位置，那么就将在它之后比它大的那个数两两交换放到最前面,得到结果
 |p33|搜索旋转排序数组|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p33.java)|如果大于头元素则从头位置开始往后搜索，否则从尾元素开始往前搜索
 |p34|搜索范围|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p34.java)|头尾指针遍历，当结果数组的值都不为-1时得到结果
 |p35|搜索插入位置|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p35.java)|只要"target<=nums[result]",返回result
+|p48|原地旋转图像|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p48.java)|先将二维护士组行与列位置交换再将每一行旋转
+|p53|最大连续序列和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p53.java)|当连续序列和小于0时要将其更新为0
 |p535|长url转短url|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p535.java)|使用HashMap储存长url，当数据量大时使用Mysql自增字段储存
 |p561|数组拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p561.java)|Array
 |p771|找宝石|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p771.java)|Array
@@ -58,6 +60,7 @@
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p39|组合总和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p39.java)|使用回溯法求解，当sum>target时剪枝，对于每个元素遍历自身与整个数组
+|p40|组合总和2|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p40.java)|先排序然后在从头开始遍历回溯，只要当前点的和大于target则可以跳出当层循环，为了避免重复，相同的元素执行跳过
 |p52|n皇后问题|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p52.java)|当前点不符合则返回上一层的遍历状态
 |p78|求幂集|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p78.java)|回溯法
 |p413|求等差数列个数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p413.java)|与全部遍历不同，要求的是连续的序列是否组成等差数组，因此只要遇到错误解就要立刻返回
