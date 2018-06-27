@@ -22,6 +22,9 @@
 |p35|搜索插入位置|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p35.java)|只要"target<=nums[result]",返回result
 |p48|原地旋转图像|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p48.java)|先将二维护士组行与列位置交换再将每一行旋转
 |p53|最大连续序列和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p53.java)|当连续序列和小于0时要将其更新为0
+|p54|螺旋矩阵|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p54.java)|一圈一圈遍历即可，从外到内
+|p55|跳跃游戏|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p55.java)|用一个变量存储剩余步数，当遍历到的位置的数大于剩余步数时，更新剩余步数
+|p56|重叠区间|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p56.java)|循环遍历求每次的最小值，然后比较end值来确定是否重叠
 |p535|长url转短url|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p535.java)|使用HashMap储存长url，当数据量大时使用Mysql自增字段储存
 |p561|数组拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p561.java)|Array
 |p771|找宝石|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p771.java)|Array

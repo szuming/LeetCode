@@ -28,21 +28,45 @@ import java.util.List;
  */
 public class p54{
     public List<Integer> spiralOrder(int[][] matrix) {
-        int n=matrix[0].length,m=matrix.length,i=0,j=0,dir=0,l1=n,l2=m;
-        List<Integer> result=new ArrayList<>(n*m);
+        List<Integer> result=new ArrayList<>();
+        if(matrix.length==0)return result;
+        int n=matrix[0].length,m=matrix.length,i=-1,j=0,dir=0,l1=n,l2=m,count;
+        if(n==0)return result;
         while(result.size()!=n*m){
+            count=1;
             switch(dir){
                 case 0:
-                    for(i=j-l1;j<l1;j++){
+                    for(i++,j=(n-l1)/2;count<=l1;j++,count++){
                         result.add(matrix[i][j]);
                     }
+                    l2--;
+                    break;
+                case 1:
+                    for(i++,j--;count<=l2;i++,count++){
+                        result.add(matrix[i][j]);
+                    }
+                    l1--;
+                    break;
+                case 2:
+                    for(i--,j--;count<=l1;j--,count++){
+                        result.add(matrix[i][j]);
+                    }
+                    l2--;
+                    break;
+                case 3:
+                    for(i--,j++;count<=l2;i--,count++){
+                        result.add(matrix[i][j]);
+                    }
+                    l1--;
+                    break;
             }
+            if(++dir==4)dir=0;
         }
         return result;
     }
 
     public static void main(String[] argv){
         p54 temp=new p54();
-        temp.spiralOrder(new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}});
+        temp.spiralOrder(new int[][]{{}});
     }
 }
