@@ -25,6 +25,9 @@
 |p54|螺旋矩阵|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p54.java)|一圈一圈遍历即可，从外到内
 |p55|跳跃游戏|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p55.java)|用一个变量存储剩余步数，当遍历到的位置的数大于剩余步数时，更新剩余步数
 |p56|重叠区间|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p56.java)|循环遍历求每次的最小值，然后比较end值来确定是否重叠
+|p59|螺旋矩阵2|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p59.java)|一圈一圈遍历即可，从外到内
+|p66|加1|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p66.java)|注意进位，用变量存储进位，然后处理进位的情况
+|p73|加1|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p73.java)|常量空间复杂度，先遍历第一行第一列但是不置0最后才置0，然后从第二行第二列开始判断将需要置0的行列用第一行第一列来记录，然后遍历第一行第一列将整个二维矩阵置0，最后置0第一行第一列
 |p535|长url转短url|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p535.java)|使用HashMap储存长url，当数据量大时使用Mysql自增字段储存
 |p561|数组拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p561.java)|Array
 |p771|找宝石|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p771.java)|Array
