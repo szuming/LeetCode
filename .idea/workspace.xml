@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eefb21ed-39e3-4944-a4dd-0c80704bd21d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/p74.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/p75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/p79.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -38,10 +39,28 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="440">
-                <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <first_editor relative-caret-position="610">
+                <caret line="73" column="147" selection-start-line="73" selection-start-column="147" selection-end-line="73" selection-end-column="147" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p79.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Backtracking/p79.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p75.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/p75.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="16" selection-start-line="22" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -58,8 +77,8 @@
       <file leaf-file-name="p74.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/p74.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="1056">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -67,7 +86,7 @@
       <file leaf-file-name="p66.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/p66.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
+            <state relative-caret-position="836">
               <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -107,8 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/p1.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/ListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/p2.java" />
         <option value="$PROJECT_DIR$/src/String/p3.java" />
         <option value="$PROJECT_DIR$/src/Array/p4.java" />
@@ -157,6 +174,8 @@
         <option value="$PROJECT_DIR$/src/Array/p66.java" />
         <option value="$PROJECT_DIR$/src/Array/p73.java" />
         <option value="$PROJECT_DIR$/src/Array/p74.java" />
+        <option value="$PROJECT_DIR$/src/Array/p75.java" />
+        <option value="$PROJECT_DIR$/src/Backtracking/p79.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -181,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,16 +212,11 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -227,23 +240,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.p74">
+  <component name="RunManager" selected="Application.p79">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="p54" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.p54" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="p55" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.p55" />
@@ -289,6 +291,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="p79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backtracking.p79" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -328,19 +341,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.p54" />
       <item itemvalue="Application.p55" />
       <item itemvalue="Application.p59" />
       <item itemvalue="Application.p66" />
       <item itemvalue="Application.p74" />
+      <item itemvalue="Application.p79" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.p79" />
         <item itemvalue="Application.p74" />
         <item itemvalue="Application.p66" />
         <item itemvalue="Application.p59" />
         <item itemvalue="Application.p55" />
-        <item itemvalue="Application.p54" />
       </list>
     </recent_temporary>
   </component>
@@ -453,12 +466,15 @@
       <workItem from="1530164496942" duration="4637000" />
       <workItem from="1530282122652" duration="2096000" />
       <workItem from="1530327736849" duration="1925000" />
-      <workItem from="1530499513965" duration="3205000" />
+      <workItem from="1530499513965" duration="3868000" />
+      <workItem from="1530603346667" duration="1148000" />
+      <workItem from="1530618153188" duration="1578000" />
+      <workItem from="1530712380600" duration="2865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275931000" />
+    <option name="totallyTimeSpent" value="282185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -474,11 +490,11 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.13626374" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.13626374" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2952381" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29464287" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -553,7 +569,7 @@
           <option name="timeStamp" value="160" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="176" />
+      <option name="time" value="180" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -576,20 +592,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/p7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/p8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -901,14 +903,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/p74.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="1056">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/p66.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="836">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -923,11 +925,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/p75.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="16" selection-start-line="22" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backtracking/p79.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="440">
-            <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <first_editor relative-caret-position="610">
+            <caret line="73" column="147" selection-start-line="73" selection-start-column="147" selection-end-line="73" selection-end-column="147" />
           </first_editor>
           <second_editor />
         </state>

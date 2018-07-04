@@ -29,6 +29,7 @@
 |p66|加1|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p66.java)|注意进位，用变量存储进位，然后处理进位的情况
 |p73|矩阵置0|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p73.java)|常量空间复杂度，先遍历第一行第一列但是不置0最后才置0，然后从第二行第二列开始判断将需要置0的行列用第一行第一列来记录，然后遍历第一行第一列将整个二维矩阵置0，最后置0第一行第一列
 |p74|搜索二维矩阵|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p74.java)|先对每一行进行2分搜索来找到target所在行，然后再对该行进行二分搜索找到target
+|p75|颜色分类|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p75.java)|因为只有三个数012，所以使用双指针lt,gt指向0与1的位置，然后用i去遍历
 |p535|长url转短url|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p535.java)|使用HashMap储存长url，当数据量大时使用Mysql自增字段储存
 |p561|数组拆分|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p561.java)|Array
 |p771|找宝石|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p771.java)|Array
@@ -70,6 +71,7 @@
 |p40|组合总和2|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p40.java)|先排序然后在从头开始遍历回溯，只要当前点的和大于target则可以跳出当层循环，为了避免重复，相同的元素执行跳过
 |p52|n皇后问题|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p52.java)|当前点不符合则返回上一层的遍历状态
 |p78|求幂集|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p78.java)|回溯法
+|p79|单词搜索|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p78.java)|在进入一个点时将其标记为已使用，若最后该点不能构成单词则重置为0，搜索单词使用回溯法向四个方向搜索即可
 |p413|求等差数列个数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p413.java)|与全部遍历不同，要求的是连续的序列是否组成等差数组，因此只要遇到错误解就要立刻返回
 
 
