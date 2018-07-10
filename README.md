@@ -9,7 +9,8 @@
 |p7|反转整数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p7.java)|将result设为long型，当res>Integer.MAX_VALUE时溢出
 |p9|检查是否是回文数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p9.java)|反转整数后再比较是否相等即可
 |p11|盛水最多的容器|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p11.java)|双指针，较小的那个往中间移动
-|p13|罗马数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p13.java)|与前一个数相比，大于前一个数则减去，少于则加上
+|p12|整数转罗马数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p13.java)|用两个数组分别对应罗马数字与阿拉伯数字，然后对整数每一位从数组中找到对应的罗马数字拼接即可
+|p13|罗马数字转整数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p13.java)|与前一个数相比，大于前一个数则减去，少于则加上
 |p14|最长公共前缀|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p14.java)|一个个字符比较即可
 |p15|三数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p15.java)|双指针，先快排形成有序，遍历一次选定第一个数，然后头尾指针遍历第一数右边的数，三数结果<0则头指针往右移，>0则往左移，避免重复需保证相邻的两个数不相等
 |p16|最接近的三数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p16.java)|双指针，先快排形成有序，遍历一次选定第一个数，然后头尾指针遍历第一数右边的数，三数结果<目标则头指针往右移，>目标则往左移

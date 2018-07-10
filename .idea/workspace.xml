@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eefb21ed-39e3-4944-a4dd-0c80704bd21d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/p75.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/p79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/p12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/p17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/p80.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -35,71 +36,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p12.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/p12.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="610">
-                <caret line="73" column="147" selection-start-line="73" selection-start-column="147" selection-end-line="73" selection-end-column="147" />
+              <first_editor relative-caret-position="242">
+                <caret line="11" column="137" selection-start-line="11" selection-start-column="137" selection-end-line="11" selection-end-column="137" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p79.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Backtracking/p79.java">
+      <file leaf-file-name="p17.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/p17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p75.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/p75.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="16" selection-start-line="22" selection-end-line="34" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p73.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/p73.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2706">
-              <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p74.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/p74.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p66.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/p66.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="616">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p59.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/p59.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -118,7 +83,11 @@
       <find>r</find>
       <find>add</find>
       <find>capacity</find>
+      <find>sb.append</find>
     </findStrings>
+    <replaceStrings>
+      <replace>sb.insert(0,)</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,9 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/p2.java" />
-        <option value="$PROJECT_DIR$/src/String/p3.java" />
-        <option value="$PROJECT_DIR$/src/Array/p4.java" />
         <option value="$PROJECT_DIR$/src/Array/p561.java" />
         <option value="$PROJECT_DIR$/src/String/p5.java" />
         <option value="$PROJECT_DIR$/src/String/p6.java" />
@@ -176,7 +142,10 @@
         <option value="$PROJECT_DIR$/src/Array/p74.java" />
         <option value="$PROJECT_DIR$/src/Array/p75.java" />
         <option value="$PROJECT_DIR$/src/Backtracking/p79.java" />
+        <option value="$PROJECT_DIR$/src/Array/p80.java" />
+        <option value="$PROJECT_DIR$/src/Array/p12.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Array/p17.java" />
       </list>
     </option>
   </component>
@@ -200,6 +169,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,16 +184,20 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="'&#9;null&#9;null&#10;i&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -240,26 +216,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.p79">
+  <component name="RunManager" selected="Application.p12">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="p55" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.p55" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="p59" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.p59" />
+    <configuration name="p12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.p12" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -298,6 +263,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="p80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.p80" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,19 +317,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.p55" />
-      <item itemvalue="Application.p59" />
       <item itemvalue="Application.p66" />
       <item itemvalue="Application.p74" />
       <item itemvalue="Application.p79" />
+      <item itemvalue="Application.p80" />
+      <item itemvalue="Application.p12" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.p12" />
+        <item itemvalue="Application.p80" />
         <item itemvalue="Application.p79" />
         <item itemvalue="Application.p74" />
         <item itemvalue="Application.p66" />
-        <item itemvalue="Application.p59" />
-        <item itemvalue="Application.p55" />
       </list>
     </recent_temporary>
   </component>
@@ -469,16 +445,18 @@
       <workItem from="1530499513965" duration="3868000" />
       <workItem from="1530603346667" duration="1148000" />
       <workItem from="1530618153188" duration="1578000" />
-      <workItem from="1530712380600" duration="2865000" />
+      <workItem from="1530712380600" duration="3462000" />
+      <workItem from="1531017053743" duration="3656000" />
+      <workItem from="1531119279278" duration="579000" />
+      <workItem from="1531181132722" duration="6999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282185000" />
+    <option name="totallyTimeSpent" value="294016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -490,18 +468,18 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.13626374" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.1319149" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29464287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.128125" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.24175824" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.24148937" />
       <window_info anchor="right" id="Gradle" order="4" />
       <window_info anchor="bottom" id="Spring" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -569,7 +547,7 @@
           <option name="timeStamp" value="160" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="180" />
+      <option name="time" value="186" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -592,34 +570,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/p8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/p9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/p13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/p832.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/p64.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -796,13 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/p11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/p4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -912,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,18 +874,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Backtracking/p79.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="660">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/p80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/p11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/p13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/p12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="610">
-            <caret line="73" column="147" selection-start-line="73" selection-start-column="147" selection-end-line="73" selection-end-column="147" />
+          <first_editor relative-caret-position="242">
+            <caret line="11" column="137" selection-start-line="11" selection-start-column="137" selection-end-line="11" selection-end-column="137" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/p17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
