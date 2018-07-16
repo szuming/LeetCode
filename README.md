@@ -13,7 +13,7 @@
 |p13|罗马数字转整数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p13.java)|与前一个数相比，大于前一个数则减去，少于则加上
 |p14|最长公共前缀|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p14.java)|一个个字符比较即可
 |p15|三数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p15.java)|双指针，先快排形成有序，遍历一次选定第一个数，然后头尾指针遍历第一数右边的数，三数结果<0则头指针往右移，>0则往左移，避免重复需保证相邻的两个数不相等
-|p16|最接近的三数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p16.java)|双指针，先快排形成有序，遍历一次选定第一个数，然后头尾指针遍历第一数右边的数，三数结果<目标则头指针往右移，>目标则往左移
+|p17|电话号码的字母组合|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p19.java)|用一个二维数组作为字典代表每个数字对应的字母数组，然后根据输入的字符串去查询拼接即可
 |p18|四数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p18.java)|与三数之和相似，只是多了一层循环
 |p26|删除重复元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p26.java)|快慢指针遍历，遇到不同时更新
 |p27|删除指定元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p27.java)|快慢指针遍历，当快指针所指值不等于指定值时更新数组
@@ -45,6 +45,7 @@
 |p5|最长回文串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p5.java)|使用回溯法求解
 |p6|Z型字符串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p6.java)|只要修改了索引就要考虑有没有数组越界的可能
 |p8|实现atoi|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p8.java)|设立标记位记录数字开始，溢出在每次result*10之后都要去判断
+|p28|实现strStr()|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p28.java)|两层循环遍历
 |p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
 |p125|判断回文串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p125.java)|用两个index分别从字符串首尾出发判断，每一次要找到英文或数字
 |p344|字符串反转|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p344.java)|使用StringBuilder的reverse方法或是将String转为char[]操作
@@ -56,6 +57,9 @@
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p2|两数相加|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p2.java)|同时遍历两个链表直到一条链表结束，然后再把长的那条链表剩余的位加入，最后遍历结果链表处理进位
+|p19|删除链表倒数位置|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p19.java)|一次遍历，两个指针相差为n,然后再往前遍历，则前指针为要删除的节点
+|p21|合并有序链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p21.java)|一次遍历，每次比较两节点大小将小节点写入结果链表，直到其中有一条遍历完，将另外一条接上即可
+|p24|两两交换|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p24.java)|注意判断非空条件应该是pre.next!=null&&pre.next.next!=null
 |p83|删除链表重复元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/LinkedList/p83.java)|两个节点分别代表前后节点，判断前后节点值然后决定是否转移
 
 
@@ -68,7 +72,8 @@
 ## Backtracking
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
-|p39|组合总和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p39.java)|使用回溯法求解，当sum>target时剪枝，对于每个元素遍历自身与整个数组
+|p22|括号生成|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p22.java)|count统计(个数，consume统计还可匹配（的个数,先执行放(,后执行放)
+|p39|组合总和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p39.java)|当sum>target时剪枝，对于每个元素遍历自身与整个数组
 |p40|组合总和2|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p40.java)|先排序然后在从头开始遍历回溯，只要当前点的和大于target则可以跳出当层循环，为了避免重复，相同的元素执行跳过
 |p52|n皇后问题|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p52.java)|当前点不符合则返回上一层的遍历状态
 |p78|求幂集|[Solution](https://github.com/szuming/leetCode/blob/master/src/Backtracking/p78.java)|回溯法
@@ -104,7 +109,12 @@
 |p811|域名访问次数|[Solution](https://github.com/szuming/leetCode/blob/master/src/HashTable/p811.java)|使用keyset遍历HashMap，spilt,charAt,subString
 
 
-## HashTable
+## SQL
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p595|大国家|[Solution](https://github.com/szuming/leetCode/blob/master/src/SQL/p595.sql)|使用||或者or或者union来实现或操作
+
+## Stack
+|  #  |      Title     |   Solutions   |  笔记                 
+|-----|----------------|---------------|-------------
+|p20|括号匹配|[Solution](https://github.com/szuming/leetCode/blob/master/src/SQL/p20.sql)|使用LinkedList来实现栈，每当遇到"([{"入栈,遇到")]}"出栈匹配

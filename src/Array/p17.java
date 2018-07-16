@@ -21,13 +21,36 @@ import java.util.List;
  */
 public class p17{
     public List<String> letterCombinations(String digits) {
-        char[][] dic=new char[][]{{'a','b','c'},{'d','e','f'},{'g','h','i'},{'j','l','l'},{'m','n','o'},{'p','q','r','s'},{'t','u','v'},{'w','x','y','z'}};
+        char[][] dic=new char[][]{{'a','b','c'},{'d','e','f'},{'g','h','i'},{'j','k','l'},{'m','n','o'},{'p','q','r','s'},{'t','u','v'},{'w','x','y','z'}};
         List<String> result=new ArrayList<>();
         char[] cp=digits.toCharArray();
         int i,len=cp.length;
         for(i=0;i<len;i++){
-
+            int index=cp[i]-'0'-2;
+            if(index<0){
+                result=new ArrayList<>();
+                return result;
+            }
+            if(result.size()==0){
+                for(int j=0;j<dic[index].length;j++){
+                    result.add(String.valueOf(dic[index][j]));
+                }
+            }else{
+                List<String> addList=new ArrayList<>();
+                for(String temp:result){
+                    for(int j=0;j<dic[index].length;j++){
+                        addList.add(temp+dic[index][j]);
+                    }
+                }
+                result=addList;
+            }
         }
-        return result;
+         return result;
     }
+
+    public static void main(String[] argv){
+        p17 temp=new p17();
+        temp.letterCombinations("23");
+    }
+
 }
