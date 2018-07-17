@@ -106,6 +106,7 @@
 ## HashTable
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
+|p36|有效的数独|[Solution](https://github.com/szuming/leetCode/blob/master/src/HashTable/p36.java)|使用2个二维数组来记录行与列各数字出现次数，用三维数组来记录小9宫格各数字出现次数
 |p811|域名访问次数|[Solution](https://github.com/szuming/leetCode/blob/master/src/HashTable/p811.java)|使用keyset遍历HashMap，spilt,charAt,subString
 
 
