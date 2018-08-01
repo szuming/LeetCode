@@ -46,6 +46,8 @@
 |p6|Z型字符串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p6.java)|只要修改了索引就要考虑有没有数组越界的可能
 |p8|实现atoi|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p8.java)|设立标记位记录数字开始，溢出在每次result*10之后都要去判断
 |p28|实现strStr()|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p28.java)|两层循环遍历
+|p38|报数|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p38.java)|每次循环得到的结果作为下一次循环的输入
+|p38|最后一个字符串长度|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p58.java)|先从后往前找到第一个非空格字符，然后从该位置在往前找找到第一个非空格字符，相减即为最后一个字符串长度
 |p657|判断是否返回原地|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p657.java)|统计字符个数，然后比较，使用switch更为高效
 |p125|判断回文串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p125.java)|用两个index分别从字符串首尾出发判断，每一次要找到英文或数字
 |p344|字符串反转|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p344.java)|使用StringBuilder的reverse方法或是将String转为char[]操作
