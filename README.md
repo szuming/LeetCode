@@ -121,3 +121,11 @@
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p20|括号匹配|[Solution](https://github.com/szuming/leetCode/blob/master/src/SQL/p20.sql)|使用LinkedList来实现栈，每当遇到"([{"入栈,遇到")]}"出栈匹配
+
+## 剑指offer
+|  #  |      Title     |   Solutions   |  笔记                 
+|-----|----------------|---------------|-------------
+|P1|二维数组中的查找|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P1.sql)|从右上角往左下角收缩，每次遍历可缩小一行或一列
+|P2|替换空格|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P2.sql)|可以考虑用新的StringBuffer来作为结果储存结构，原空间的话就先遍历统计空格数再扩大长度
+|P3|从尾到头打印链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P3.sql)|递归遍历链表即可，在调用方法后才将当前节点值加入到result
+
