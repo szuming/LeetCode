@@ -1,5 +1,7 @@
 package tree;
 
+
+
 /**
  * 根据一棵树的中序遍历与后序遍历构造二叉树。
 
@@ -23,7 +25,7 @@ package tree;
  */
 public class p106 {
     private int index;
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
+    public TreeNode buildTree(int[] inorder,int[] postorder) {
         TreeNode root;
         index=postorder.length-1;
         root=getNode(inorder,postorder);
