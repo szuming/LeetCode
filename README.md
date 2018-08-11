@@ -9,9 +9,8 @@
 |p7|反转整数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p7.java)|将result设为long型，当res>Integer.MAX_VALUE时溢出
 |p9|检查是否是回文数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p9.java)|反转整数后再比较是否相等即可
 |p11|盛水最多的容器|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p11.java)|双指针，较小的那个往中间移动
-|p12|整数转罗马数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p13.java)|用两个数组分别对应罗马数字与阿拉伯数字，然后对整数每一位从数组中找到对应的罗马数字拼接即可
+|p12|整数转罗马数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p12.java)|用两个数组分别对应罗马数字与阿拉伯数字，然后对整数每一位从数组中找到对应的罗马数字拼接即可
 |p13|罗马数字转整数|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p13.java)|与前一个数相比，大于前一个数则减去，少于则加上
-|p14|最长公共前缀|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p14.java)|一个个字符比较即可
 |p15|三数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p15.java)|双指针，先快排形成有序，遍历一次选定第一个数，然后头尾指针遍历第一数右边的数，三数结果<0则头指针往右移，>0则往左移，避免重复需保证相邻的两个数不相等
 |p17|电话号码的字母组合|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p19.java)|用一个二维数组作为字典代表每个数字对应的字母数组，然后根据输入的字符串去查询拼接即可
 |p18|四数之和|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p18.java)|与三数之和相似，只是多了一层循环
@@ -45,6 +44,7 @@
 |p5|最长回文串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p5.java)|使用回溯法求解
 |p6|Z型字符串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p6.java)|只要修改了索引就要考虑有没有数组越界的可能
 |p8|实现atoi|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p8.java)|设立标记位记录数字开始，溢出在每次result*10之后都要去判断
+|p14|最长公共前缀|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p14.java)|一个个字符比较即可
 |p28|实现strStr()|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p28.java)|两层循环遍历
 |p38|报数|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p38.java)|每次循环得到的结果作为下一次循环的输入
 |p38|最后一个字符串长度|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p58.java)|先从后往前找到第一个非空格字符，然后从该位置在往前找找到第一个非空格字符，相减即为最后一个字符串长度
@@ -120,12 +120,15 @@
 ## Stack
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
-|p20|括号匹配|[Solution](https://github.com/szuming/leetCode/blob/master/src/SQL/p20.sql)|使用LinkedList来实现栈，每当遇到"([{"入栈,遇到")]}"出栈匹配
+|p20|括号匹配|[Solution](https://github.com/szuming/leetCode/blob/master/src/SQL/p20.java)|使用LinkedList来实现栈，每当遇到"([{"入栈,遇到")]}"出栈匹配
 
 ## 剑指offer
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
-|P1|二维数组中的查找|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P1.sql)|从右上角往左下角收缩，每次遍历可缩小一行或一列
-|P2|替换空格|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P2.sql)|可以考虑用新的StringBuffer来作为结果储存结构，原空间的话就先遍历统计空格数再扩大长度
-|P3|从尾到头打印链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P3.sql)|递归遍历链表即可，在调用方法后才将当前节点值加入到result
+|P1|二维数组中的查找|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P1.java)|从右上角往左下角收缩，每次遍历可缩小一行或一列
+|P2|替换空格|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P2.java)|可以考虑用新的StringBuffer来作为结果储存结构，原空间的话就先遍历统计空格数再扩大长度
+|P3|从尾到头打印链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P3.java)|递归遍历链表即可，在调用方法后才将当前节点值加入到result
+|P4|前序与中序遍历构造树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P4.java)|遍历前序数组，每一个都对可以从中序里找出左右子树，递归即可
+|P5|两个栈构造队列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P5.java)|stack1作为push的栈，stack2作为pop栈，实现push直接push到stack1即可，pop就是stack2来pop，没数据要从stack1转移数据到stack2
+|P6|旋转数组的最小数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P6.java)|二分法，要注意的是三个index相等时无法使用二分判断，智能从它们之间遍历获取最小
 
