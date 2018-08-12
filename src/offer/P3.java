@@ -1,25 +1,23 @@
 package offer;
 
-import LinkedList.ListNode;
-
-import java.util.ArrayList;
-
-
 /**
- * 题目描述
- * 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
+ * 在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
  */
 public class P3 {
-    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
-        ArrayList<Integer> result = new ArrayList<>();
-        return add(listNode,result);
-    }
-
-    private ArrayList<Integer> add(ListNode listNode, ArrayList<Integer> result) {
-        if (listNode != null) {
-            add(listNode.next, result);
-            result.add(listNode.val);
+    public boolean Find(int target, int [][] array) {
+        if (array == null || array.length == 0 || array[0].length == 0) {
+            return false;
         }
-        return result;
+        int n = array.length, m = array[0].length, i, j;
+        for (i = 0, j = m - 1; i < n && j >= 0;) {
+            if (array[i][j] > target) {
+                j--;
+            }else if (array[i][j] == target) {
+                return true;
+            }else {
+                i++;
+            }
+        }
+        return false;
     }
 }

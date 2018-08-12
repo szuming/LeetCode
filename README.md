@@ -125,10 +125,10 @@
 ## 剑指offer
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
-|P1|二维数组中的查找|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P1.java)|从右上角往左下角收缩，每次遍历可缩小一行或一列
-|P2|替换空格|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P2.java)|可以考虑用新的StringBuffer来作为结果储存结构，原空间的话就先遍历统计空格数再扩大长度
-|P3|从尾到头打印链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P3.java)|递归遍历链表即可，在调用方法后才将当前节点值加入到result
-|P4|前序与中序遍历构造树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P4.java)|遍历前序数组，每一个都对可以从中序里找出左右子树，递归即可
-|P5|两个栈构造队列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P5.java)|stack1作为push的栈，stack2作为pop栈，实现push直接push到stack1即可，pop就是stack2来pop，没数据要从stack1转移数据到stack2
-|P6|旋转数组的最小数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P6.java)|二分法，要注意的是三个index相等时无法使用二分判断，智能从它们之间遍历获取最小
+|P3|二维数组中的查找|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P3.java)|从右上角往左下角收缩，每次遍历可缩小一行或一列
+|P4|替换空格|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P4.java)|可以考虑用新的StringBuffer来作为结果储存结构，原空间的话就先遍历统计空格数再扩大长度
+|P5|从尾到头打印链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P5.java)|递归遍历链表即可，在调用方法后才将当前节点值加入到result
+|P6|前序与中序遍历构造树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P6.java)|遍历前序数组，每一个都对可以从中序里找出左右子树，递归即可
+|P7|两个栈构造队列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P7.java)|stack1作为push的栈，stack2作为pop栈，实现push直接push到stack1即可，pop就是stack2来pop，没数据要从stack1转移数据到stack2
+|P8|旋转数组的最小数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P8.java)|二分法，要注意的是三个index相等时无法使用二分判断，智能从它们之间遍历获取最小
 

@@ -1,38 +1,25 @@
 package offer;
 
-import java.util.Stack;
+import LinkedList.ListNode;
+
+import java.util.ArrayList;
+
 
 /**
  * 题目描述
- * 用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
+ * 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
  */
 public class P5 {
-    private Stack<Integer> stack1 = new Stack<Integer>();
-    private Stack<Integer> stack2 = new Stack<Integer>();
-
-    public void push(int node) {
-        stack1.push(node);
+    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+        ArrayList<Integer> result = new ArrayList<>();
+        return add(listNode,result);
     }
 
-    public int pop() {
-        if (stack2.empty()) {
-            while (!stack1.empty()) {
-                stack2.push(stack1.pop());
-            }
+    private ArrayList<Integer> add(ListNode listNode, ArrayList<Integer> result) {
+        if (listNode != null) {
+            add(listNode.next, result);
+            result.add(listNode.val);
         }
-        return stack2.pop();
-    }
-
-    public static void main(String[] argv) {
-        P5 temp = new P5();
-        temp.push(1);
-        temp.push(2);
-        temp.push(3);
-        System.out.println(temp.pop());
-        System.out.println(temp.pop());
-        System.out.println(temp.pop());
-        temp.push(4);
-        temp.push(5);
-        System.out.println(temp.pop());
+        return result;
     }
 }
