@@ -131,4 +131,7 @@
 |P6|前序与中序遍历构造树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P6.java)|遍历前序数组，每一个都对可以从中序里找出左右子树，递归即可
 |P7|两个栈构造队列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P7.java)|stack1作为push的栈，stack2作为pop栈，实现push直接push到stack1即可，pop就是stack2来pop，没数据要从stack1转移数据到stack2
 |P8|旋转数组的最小数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P8.java)|二分法，要注意的是三个index相等时无法使用二分判断，智能从它们之间遍历获取最小
-|P9|斐波那契数列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P*.java)|递归法会导致重复计算，应该从0开始计算到目标数
+|P9|斐波那契数列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P9.java)|递归法会导致重复计算，应该从0开始计算到目标数
+|P10|二进制中1的个数|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P10.java)|让1与目标与运算，不断左移1，这样就可避免死循环，或者通过>>>无符号右移（左边直接补0）
+|P11|数值的整数次方|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P11.java)|注意判断指数是否为负数
+

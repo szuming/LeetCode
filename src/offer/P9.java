@@ -25,4 +25,66 @@ public class P9 {
         }
         return result;
     }
+
+    /**
+     * 跳楼梯
+     * @param target
+     * @return
+     */
+    public int JumpFloor(int target) {
+        int first = 1, second = 2, res = 0;
+        int i = 3;
+        if (target <= 0) {
+            return first;
+        }
+        else if (target == 1) {
+            return second;
+        }
+        int result = 0;
+        while (i <=  target) {
+            result = first + second;
+            first = second;
+            second = result;
+            i++;
+        }
+        return result;
+    }
+
+    /**
+     * 变态跳楼梯
+     * @param target
+     * @return
+     */
+    public int JumpFloorII(int target) {
+        if (target <= 0) {
+            return -1;
+        } else if (target == 1) {
+            return 1;
+        } else {
+            return 2 * JumpFloorII(target - 1);
+        }
+    }
+
+    /**
+     * 覆盖矩形
+     * @param target
+     * @return
+     */
+    public int RectCover(int target) {
+        int result = 0;
+        int first = 1 , second = 2;
+        if(target < 1) {
+            return 0;
+        } else if (target == 1) {
+            return 1;
+        } else if (target == 2){
+            return 2;
+        }
+        for (int i = 0; i < target; i++) {
+            result = first + second;
+            first = second;
+            second = result;
+        }
+        return result;
+    }
 }
