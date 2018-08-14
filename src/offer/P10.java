@@ -1,12 +1,9 @@
 package offer;
 
 /**
- * @ClassName P10
- * @Description TODO
- * @Author MING
- * @Date 2018/8/12 22:18
- * @Update 2018/8/12 22:18
- **/
+ * 题目描述
+ * 输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。
+ */
 public class P10 {
 //    public int NumberOf1(int n) {
 //        int flag = 1;

@@ -134,4 +134,12 @@
 |P9|斐波那契数列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P9.java)|递归法会导致重复计算，应该从0开始计算到目标数
 |P10|二进制中1的个数|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P10.java)|让1与目标与运算，不断左移1，这样就可避免死循环，或者通过>>>无符号右移（左边直接补0）
 |P11|数值的整数次方|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P11.java)|注意判断指数是否为负数
+|P12|使奇数位于偶数前面|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P12.java)|双指针，先求出第一个偶数与第一个奇数，然后遍历数组每遇到一次奇数就放到奇数位置，然后奇数指针++
+|P13|链表倒数第k个节点|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P13.java)|双指针，一个指针先行k次，另一个再一起遍历知道先行指针为null，注意的是k<=0,head = null等非法输入处理，还有遍历过程先行指针null检测
+|P14|反转链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P14.java)|保存第三个node，注意head的next要在第一次倒转后设为null，如果长度小于2直接返回head
+|P15|合并链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P15.java)|注意空链表输入，遍历完其中一条，再将另一条剩余的补上
+|P16|判断是否是子树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P16.java)|两层递归，第一层寻找第一个值相等的节点作为root，然后在来一层一一对比
+|P17|求二叉树的镜像|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P17.java)|前序遍历，只要当前节点不为null，就对它的左右子树求镜像，然后再交换左右子树
+
+
 

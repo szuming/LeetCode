@@ -1,12 +1,9 @@
 package offer;
 
 /**
- * @ClassName P11
- * @Description TODO
- * @Author MING
- * @Date 2018/8/13 22:43
- * @Update 2018/8/13 22:43
- **/
+ * 题目描述
+ * 给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。
+ */
 public class P11 {
     public double Power(double base, int exponent) {
         boolean flag = true;
