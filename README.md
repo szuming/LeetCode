@@ -140,6 +140,11 @@
 |P15|合并链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P15.java)|注意空链表输入，遍历完其中一条，再将另一条剩余的补上
 |P16|判断是否是子树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P16.java)|两层递归，第一层寻找第一个值相等的节点作为root，然后在来一层一一对比
 |P17|求二叉树的镜像|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P17.java)|前序遍历，只要当前节点不为null，就对它的左右子树求镜像，然后再交换左右子树
+|p18|螺旋矩阵|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P17.java)|一圈一圈遍历即可，从外到内
+|p19|栈的最小元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P19.java)|用一个辅助栈与一个最小值min变量，辅助栈每次存的都是栈里最小值，当栈pop时，辅助栈也跟着pop
+|p20|栈的压进与弹出序列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P20.java)|用一个辅助栈，遍历弹出序列，每个弹出序列值先比较当前栈顶是否为目标值，不是就往后遍历压进序列直到目标值
+|p21|从上往下打印二叉树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P21.java)|用一个辅助队列，先进先出，把当前节点的左右非空子节点放入队列即可
+|p222|判断序列是否为二叉搜索树后序遍历|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P22.java)|序列最后一个为当前序列最小点，根据左子树小于当前点，右子树大于当前点，进行划分后递归判断
 
 
 
