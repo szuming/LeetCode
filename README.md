@@ -144,7 +144,10 @@
 |p19|栈的最小元素|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P19.java)|用一个辅助栈与一个最小值min变量，辅助栈每次存的都是栈里最小值，当栈pop时，辅助栈也跟着pop
 |p20|栈的压进与弹出序列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P20.java)|用一个辅助栈，遍历弹出序列，每个弹出序列值先比较当前栈顶是否为目标值，不是就往后遍历压进序列直到目标值
 |p21|从上往下打印二叉树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P21.java)|用一个辅助队列，先进先出，把当前节点的左右非空子节点放入队列即可
-|p222|判断序列是否为二叉搜索树后序遍历|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P22.java)|序列最后一个为当前序列最小点，根据左子树小于当前点，右子树大于当前点，进行划分后递归判断
+|p22|判断序列是否为二叉搜索树后序遍历|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P22.java)|序列最后一个为当前序列最小点，根据左子树小于当前点，右子树大于当前点，进行划分后递归判断
+|p23|二叉树路径和|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P23.java)|一直递归遍历直到无左右子树，判断和是否等于目标值，每次递归结束都要删除本节点的值sum与list
+|p24|复制复杂链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P24.java)|先复制直接跟在父节点后，然后再遍历一次设置random节点，然后分离父子链表
+
 
 
 
