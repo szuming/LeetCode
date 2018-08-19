@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eefb21ed-39e3-4944-a4dd-0c80704bd21d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offer/P23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/P24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/P25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/RandomListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offer/P26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offer/P27.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/offer/P22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/offer/P22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/offer/P24.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/offer/P24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/P25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/P25.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,41 +50,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="590">
-                <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+              <first_editor relative-caret-position="426">
+                <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="P25.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offer/P25.java">
+      <file leaf-file-name="P27.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/offer/P27.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P24.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/P24.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1132">
-              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/RandomListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -119,8 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Backtracking/p79.java" />
-        <option value="$PROJECT_DIR$/src/Array/p80.java" />
         <option value="$PROJECT_DIR$/src/Array/p12.java" />
         <option value="$PROJECT_DIR$/src/Array/p17.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/p19.java" />
@@ -168,8 +143,10 @@
         <option value="$PROJECT_DIR$/src/offer/P23.java" />
         <option value="$PROJECT_DIR$/src/offer/RandomListNode.java" />
         <option value="$PROJECT_DIR$/src/offer/P24.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/offer/P25.java" />
+        <option value="$PROJECT_DIR$/src/offer/P26.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/offer/P27.java" />
       </list>
     </option>
   </component>
@@ -182,7 +159,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -193,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,11 +188,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="offer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,31 +229,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P24">
+  <component name="RunManager" selected="Application.P27">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="P14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.P14" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="P16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.P16" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="P20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.P20" />
@@ -296,6 +257,28 @@
     </configuration>
     <configuration name="P24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.P24" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="P26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.P26" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="P27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.P27" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -347,19 +330,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.P14" />
-      <item itemvalue="Application.P16" />
       <item itemvalue="Application.P20" />
       <item itemvalue="Application.P22" />
       <item itemvalue="Application.P24" />
+      <item itemvalue="Application.P26" />
+      <item itemvalue="Application.P27" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P27" />
+        <item itemvalue="Application.P26" />
         <item itemvalue="Application.P24" />
         <item itemvalue="Application.P22" />
         <item itemvalue="Application.P20" />
-        <item itemvalue="Application.P16" />
-        <item itemvalue="Application.P14" />
       </list>
     </recent_temporary>
   </component>
@@ -498,15 +481,18 @@
       <workItem from="1534248772525" duration="10089000" />
       <workItem from="1534330404828" duration="7473000" />
       <workItem from="1534429047708" duration="350000" />
-      <workItem from="1534504916638" duration="4693000" />
+      <workItem from="1534504916638" duration="6695000" />
+      <workItem from="1534556911989" duration="478000" />
+      <workItem from="1534581339470" duration="941000" />
+      <workItem from="1534648752203" duration="5671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369917000" />
+    <option name="totallyTimeSpent" value="379009000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -519,7 +505,7 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.1574468" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.1574468" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
@@ -530,7 +516,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.2717508" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.2712766" />
       <window_info anchor="right" id="Gradle" order="4" />
       <window_info anchor="bottom" id="Spring" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -565,7 +551,6 @@
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32234043" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3287234" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -580,6 +565,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.215625" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3287234" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.2717508" />
     </layout-to-restore>
   </component>
@@ -678,8 +664,14 @@
           <properties />
           <option name="timeStamp" value="227" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/offer/P26.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="234" />
+      <option name="time" value="245" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -717,27 +709,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="582" selection-start-line="582" selection-end-line="582" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/p67.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/P1.java" />
     <entry file="file://$PROJECT_DIR$/src/offer/P2.java" />
     <entry file="file://$PROJECT_DIR$/src/offer/TreeNode.java" />
@@ -979,9 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,7 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/RandomListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="420">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#285#286#0" expanded="true" />
@@ -1034,25 +1002,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/P24.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
+        <state relative-caret-position="2010">
           <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/p349.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/P25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" selection-start-line="11" selection-start-column="2" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/P26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" lean-forward="true" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="590">
-            <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+          <first_editor relative-caret-position="426">
+            <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/P25.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/P27.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="360">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

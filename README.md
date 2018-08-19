@@ -147,6 +147,9 @@
 |p22|判断序列是否为二叉搜索树后序遍历|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P22.java)|序列最后一个为当前序列最小点，根据左子树小于当前点，右子树大于当前点，进行划分后递归判断
 |p23|二叉树路径和|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P23.java)|一直递归遍历直到无左右子树，判断和是否等于目标值，每次递归结束都要删除本节点的值sum与list
 |p24|复制复杂链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P24.java)|先复制直接跟在父节点后，然后再遍历一次设置random节点，然后分离父子链表
+|p26|字符串字符排序|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P26.java)|递归遍历问题，可以看成前i-1位排序好，第i位与后面的交换，从0递归到len
+|p27|统计出现次数超过一半的数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P27.java)|（1）先排序判断中位数的出现次数是否超过一般（2）用一个hashmap存储次数
+
 
 
 
