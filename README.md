@@ -149,6 +149,8 @@
 |p24|复制复杂链表|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P24.java)|先复制直接跟在父节点后，然后再遍历一次设置random节点，然后分离父子链表
 |p26|字符串字符排序|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P26.java)|递归遍历问题，可以看成前i-1位排序好，第i位与后面的交换，从0递归到len
 |p27|统计出现次数超过一半的数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P27.java)|（1）先排序判断中位数的出现次数是否超过一般（2）用一个hashmap存储次数
+|p28|topK问题|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P28.java)|可以改变数组则直接使用快排方式，不可以则使用堆排序，最大堆
+|p29|连续子数组的最大值|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P29.java)|sum统计和，如果sum>max则设置max，如果和小于0则重置为0
 
 
 
