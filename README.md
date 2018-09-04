@@ -151,7 +151,7 @@
 |p27|统计出现次数超过一半的数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P27.java)|（1）先排序判断中位数的出现次数是否超过一般（2）用一个hashmap存储次数
 |p28|topK问题|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P28.java)|可以改变数组则直接使用快排方式，不可以则使用堆排序，最大堆
 |p29|连续子数组的最大值|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P29.java)|sum统计和，如果sum>max则设置max，如果和小于0则重置为0
-
+|p31|把数组排成最小得数|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P31.java)|转换成String数组，然后通过定义comarator来排序，规则是组成mn比nm小则m在前n在后
 
 
 
