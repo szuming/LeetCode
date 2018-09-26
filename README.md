@@ -152,6 +152,39 @@
 |p28|topK问题|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P28.java)|可以改变数组则直接使用快排方式，不可以则使用堆排序，最大堆
 |p29|连续子数组的最大值|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P29.java)|sum统计和，如果sum>max则设置max，如果和小于0则重置为0
 |p31|把数组排成最小得数|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P31.java)|转换成String数组，然后通过定义comarator来排序，规则是组成mn比nm小则m在前n在后
+|p32|丑数|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P32.java)|用数组记录丑数，三个指针分别指向2 3 5的下一个乘之后大于最大丑数的位置，然后每次计算这三个最小的那个作为新的丑数，同时比较更新三个指针
+|p33|第一个只出现一次的字符|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P33.java)|遍历字符串时使用LinkedHashMap去记录出现次数
+|p35|两链表第一个公共节点|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P35.java)|统计长度，算出差值d，让长的链表先走d，然后再同时遍历找到共同点；（2）第一个共同节点后的都是相同的，使用两个栈存储遍历结果，找到第一个不相同的节点，它的next就是第一个相同的节点
+|p36|数字在排序数组中出现的次数|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P36.java)|二分查找找到第一次出现的位置和最后出现的位置，相减即可
+|p37|二叉树深度|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P37.java)|每次递归深度+1，比较左右子数的深度，每个节点取较长的那个
+|p38|判断是否是平衡二叉树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P38.java)|后序遍历二叉树并记录深度，每次遍历都比较深度之差是否为1
+|p39|数组中只出现过一次的数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P39.java)|只有一个只出现一次的数字时直接异或就得到了，两个的话先异或，得到的结果找到第一位不为0的位置，然后根据这个数来将数组分成两个数组，每个数组只包含一个只出现一次的数字，再分别异或得到的就是唯一的数字
+|p40|排序数组求和为目标s的所有序列|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P40.java)|双指针，当和大于目标k时，将右指针往回走一步，左指针往前走一步，知道找到目标值；当找到一组序列后，右指针继续往前走即可
+|p41|和为s的两个数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P41.java)|双指针，首尾往中间遍历，当相加结果大于目标k时，尾指针往前走一步，否则首指针往后走一步
+|p42|左旋转字符串|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P42.java)|把字符串分为需要旋转部分与不需要旋转部分，先将整个字符串旋转，然后两部分分别旋转，最后再整个旋转
+|p43|反转字符串单词|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P43.java)|先将整个字符串反转，然后将里面的单词反转
+|p44|扑克牌顺子|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P44.java)|1.排序2.计算王的数量3.判断王的数量能不能补上缺口
+|p46|求1+2+...+n|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P46.java)|使用&&短路特性来作为递归终结的判断
+|p47|不用+-*/实现加法|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P47.java)|1.忽略进位得到相加结果，通过^实现2.计算进位,通过&之后<<1实现3.重复计算直到没有进位
+|p48|字符串转整数|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P48.java)|注意处理第一位为'+'或'-'的情况
+|p49|数组中重复的数字|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P49.java)|用一个boolean数组做标记即可
+|p50|构建乘积数组|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P50.java)|用两个数组存放前面部分乘积与后面乘积，然后再将他它们相乘即可
+|p52|表示数值的字符串|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P52.java)|注意处理e与E，+-，e后的整数
+|p53|字符流中第一个不重复的字符|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P53.java)|使用数组记录，每个字符ASCII作为index，对应的值作为在字符流中的位置，当重复出现时更新为负数，寻找最小的不为负数的index
+|p54|循环链表的入口|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P54.java)|快慢指针统计循环的长度k，然后让快指针先走k，然后再一起走直到相同即为第一个入口
+|p55|删除链表中重复的节点|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P55.java)|为避免头节点就是重复的节点，先创建一个头节点来连接传入的节点，然后开始遍历删除，不是每次遍历都将p=p.next,只有没有删除节点时才需要
+|p56|二叉树的下一个节点|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P56.java)|中序遍历，那么对于目标节点k如果右子树不空则右子树最左的节点就是返回值，若右子树为空，则往上遍历找到第一个是父节点的左子节点，然后它的父节点就是返回值
+|p57|对称二叉树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P57.java)|前序遍历与倒前序遍历，比较值是否相同，注意处理null
+|p58|将二叉树打印成多行|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P58.java)|使用队列来存储，只要队列不空继续遍历；使用一个变量记录下一层的数目，用一个变量记录剩余的数目，当剩余为0时打印，更新剩余数为下一层数，下一层数置为0
+|p59|之字形打印二叉树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P59.java)|使用两个栈分别存奇数层与偶数层
+|p60|序列化二叉树|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P60.java)|前序遍历即可，null使用#代替
+|p61|二叉搜索树的第k小节点|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P61.java)|中序遍历即可
+|p62|输入流中的中位数|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P62.java)|使用链表记录，然后查找中位数即可，需要排序
+|p63|输入流中的中位数|[Solution](https://github.com/szuming/leetCode/blob/master/src/offer/P63.java)|用两个数组对应单位与个位，整数部分与小数部分分别处理再将结果合并
+
+
+
+
 
 
 
