@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eefb21ed-39e3-4944-a4dd-0c80704bd21d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/P1108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/P169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/P264.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/P525.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/P767.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temp/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/P1221.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/offer/P63.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/offer/P63.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p125.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p125.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p28.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p344.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p344.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p345.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p345.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p38.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p58.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p58.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p657.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p657.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/p8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/p8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/P24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/P24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,22 +70,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#63#64#0" expanded="true" />
                 <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/P1221.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/P1108.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="291">
               <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="e#442#443#0" expanded="true" />
@@ -158,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pratice/keep/Main.java" />
         <option value="$PROJECT_DIR$/src/tree/HuYa1.java" />
         <option value="$PROJECT_DIR$/src/pratice/非递归前序遍历二叉树.java" />
         <option value="$PROJECT_DIR$/src/pratice/LinkedHashMap实现LRUcache.java" />
@@ -207,15 +190,16 @@
         <option value="$PROJECT_DIR$/src/HashTable/P525.java" />
         <option value="$PROJECT_DIR$/src/string/P767.java" />
         <option value="$PROJECT_DIR$/src/Array/P169.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Array/P1108.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/Array/P1221.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="340" />
-    <option name="width" value="1400" />
-    <option name="height" value="785" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -253,7 +237,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/javaCode/leetcode/src/String/p67.java&#10;（&#9;null&#9;null&#10;'&#9;null&#9;null&#10;i&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574903647636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574904075593" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../common" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -571,18 +555,18 @@
       <workItem from="1573948259483" duration="596000" />
       <workItem from="1574468056457" duration="3340000" />
       <workItem from="1574775313440" duration="1702000" />
-      <workItem from="1574897232964" duration="729000" />
+      <workItem from="1574897232964" duration="1159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="519162000" />
+    <option name="totallyTimeSpent" value="519592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17627347" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3637621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -601,7 +585,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33094555" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -620,45 +604,6 @@
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Maven" order="11" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597855" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="1" weight="0.3529412" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Application Servers" order="3" weight="0.3290938" />
-      <window_info anchor="bottom" id="Spring" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.17021276" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.26487252" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32234043" />
-      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Gradle" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.21488096" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info anchor="right" id="Maven" order="11" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -886,13 +831,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/offer/P35.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/P3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1214,27 +1152,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/P1108.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="291">
           <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="e#442#443#0" expanded="true" />
             <element signature="e#492#493#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/P1221.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
         </state>
       </provider>
     </entry>

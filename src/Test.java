@@ -3,7 +3,5 @@ public class Test {
         Test test = new Test();
     }
 
-    public String defangIPaddr(String address) {
-        return address.replace(".", "[.]");
-    }
+
 }
