@@ -1,4 +1,4 @@
-package String;
+package string;
 
 /**
  * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为1000。
@@ -61,7 +61,7 @@ public class p5 {
  *
 
  class Solution {
- public String longestPalindrome(String s) {
+ public string longestPalindrome(string s) {
  int start = 0, end = 0;
  for (int i = 0; i < s.length(); i++) {
  int len1 = expandAroundCenter(s, i, i);
@@ -75,7 +75,7 @@ public class p5 {
  return s.substring(start, end + 1);
  }
 
- private int expandAroundCenter(String s, int left, int right) {
+ private int expandAroundCenter(string s, int left, int right) {
  int L = left, R = right;
  while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {
  L--;

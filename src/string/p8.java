@@ -1,4 +1,4 @@
-package String;
+package string;
 
 /**
  * 实现 atoi，将字符串转为整数。

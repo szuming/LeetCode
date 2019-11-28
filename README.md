@@ -37,7 +37,7 @@
 |p832|翻转图像|[Solution](https://github.com/szuming/leetCode/blob/master/src/Array/p832.java)|反转与遍历矩阵
 
 
-## String
+## string
 |  #  |      Title     |   Solutions   |  笔记                 
 |-----|----------------|---------------|-------------
 |p3|无重复字符的最长字串|[Solution](https://github.com/szuming/leetCode/blob/master/src/String/p3.java)|两个循环，第二个循环应判断长度是否已经不可能超过result来优化

@@ -40,7 +40,7 @@ package offer;
 //        return result;
 //    }
 //
-//    public static void main(String[] argv) {
+//    public static void main(string[] argv) {
 //        P24 temp = new P24();
 //        RandomListNode pHead = new RandomListNode(1);
 //        pHead.next = new RandomListNode(2);

@@ -1,4 +1,4 @@
-package String;
+package string;
 
 /**
  * 给定两个二进制字符串，返回他们的和（用二进制表示）。
@@ -16,7 +16,7 @@ package String;
  * 输出: "10101"
  */
 public class p67 {
-    /*public String addBinary(String a, String b) {
+    /*public string addBinary(string a, string b) {
         int x = Integer.valueOf(a) + Integer.valueOf(b);
         StringBuilder sb = new StringBuilder();
         int temp, len = a.length() > b.length()?a.length():b.length();

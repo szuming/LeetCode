@@ -1,4 +1,4 @@
-package String;
+package string;
 
 /**
  * 28. 实现strStr()
